@@ -19,8 +19,9 @@ La aplicación permite visualizar la información del empleado, y hacer los sigu
 - Antigüedad del empleado, utilizando la fecha de ingreso del empleado.
 - Prestaciones a las que tiene derecho el empleado. Para este cálculo se debe usar la siguiente fórmula:
 
-
-prestaciones=  (antiguedad*salario)/12
+```java
+prestaciones = (antiguedad*salario) / 12
+```
 
 El programa debe permitir:
 
