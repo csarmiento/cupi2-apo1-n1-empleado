@@ -26,9 +26,8 @@ public class PanelImagen extends JPanel {
      * <b>post: </b> Panel quedó inicializado.
      */
     public PanelImagen() {
-        JLabel imagen = new JLabel();
         ImageIcon icono = new ImageIcon("./data/imagenes/Encabezado.png");
-        imagen = new JLabel("");
+        JLabel imagen = new JLabel("");
         imagen.setIcon(icono);
         add(imagen);
     }
